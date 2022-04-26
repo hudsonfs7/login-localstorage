@@ -102,7 +102,7 @@ function cadastrar() {
     msgError.innerHTML = ''
     msgError.setAttribute('style', 'display: none')
     setTimeout(() => {
-      window.location.href = 'http://127.0.0.1:5500/'
+      window.location.href = './index.html'
     }, 2500)
   } else {
     msgError.setAttribute('style', 'display: block')
