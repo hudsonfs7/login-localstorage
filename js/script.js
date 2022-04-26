@@ -69,7 +69,7 @@ function entrar() {
 
     setTimeout(() => {
       document.location.reload(true)
-    }, 2000)
+    }, 3000)
 
     usuario.focus()
   }
