@@ -51,7 +51,7 @@ function entrar() {
     senha.value == userValid.senha &&
     userValid.user.length > 0
   ) {
-    window.location.href = 'http://127.0.0.1:5500/inicio.html'
+    window.location.href = './inicio.html'
 
     localStorage.setItem('userLogado', JSON.stringify(userValid))
 
